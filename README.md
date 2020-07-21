@@ -1,2 +1,2 @@
 # Predicting-Housing-Prices
-Built a linear regression to predict the sale price of each house in Ames, Iowa
+Picked 14 predictors out of 79 and built a linear model with 88% R^2 to predict the sale price of houses in Ames, Iowa.
