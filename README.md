@@ -24,7 +24,7 @@ At first, I built multiple linear regression models. Based on the results, I rem
 
 My final model contains 9 predictors. The R2 of my model is 87.23% and the adjusted R2 is 87.18%. I also run predictions on the test data on Kaggle and I achieved 90.2% accuracy on the public leaderboard.  
 
-tSalePrice = 1.064e+01 + LotArea * 2.244e-06 + OverallQual * 1.325e-01 + Age * -1.176e-03 + GrLivArea * 1.474e-04 + FullBath * 4.690e-02 + TotRmsAbvGrd * 9.118e-03 + Fireplaces * 2.669e-02 + GarageCars * 9.445e-02 + BsmtFinSF1 * 1.222e-04
+My final model: tSalePrice = 1.064e+01 + LotArea * 2.244e-06 + OverallQual * 1.325e-01 + Age * -1.176e-03 + GrLivArea * 1.474e-04 + FullBath * 4.690e-02 + TotRmsAbvGrd * 9.118e-03 + Fireplaces * 2.669e-02 + GarageCars * 9.445e-02 + BsmtFinSF1 * 1.222e-04
 
 ## Regression Diagnostics
 
