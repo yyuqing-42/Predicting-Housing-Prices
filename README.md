@@ -8,7 +8,7 @@ Picked 9 predictors out of 80 and built a linear regression model with 90.2% R2 
 
 First, I checked the missing values of all columns by running colSums() function. I deleted columns with 80~90% missing data. For the other numerical columns with missing values, I chose to replace the missing data with column mean or median. I replaced all the categorical missing values with the most frequent non-missing value of each column. 
 
-## exploratory data analysis
+## Exploratory Data Analysis
 
 To identity good categorical variables, I applied boxplot to all the categorical columns. A variable is considered a important categorical variable when there is a siginficate difference shown in the plot.
 
@@ -37,3 +37,7 @@ The diagnostic plots look good.
 - The Scale-Location plot shows the residual points appear randomly spread. In another word, my model has a constant variance. 
 
 - The Residual vs Leverage plot shows there is no bad leverage points. 
+
+## Conclusion
+
+My model is valid model. However, I have more time, I will definitly do more research and transform or combine more predictors to improve the R2.
