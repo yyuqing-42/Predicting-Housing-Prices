@@ -40,4 +40,4 @@ The diagnostic plots look good.
 
 ## Conclusion
 
-My model is valid model. However, I have more time, I will definitly do more research and transform or combine more predictors to improve the R2.
+My model is valid model. However, If I have more time, I will definitly do more research and transform or combine more predictors to improve the R2.
