@@ -22,7 +22,7 @@ For the response variable SalePrice, I took log over it to increase the linearit
 
 At first, I built multiple linear regression models. Based on the results, I removed some predictors with large VIF value (>5) or with very large P-values. 
 
-My final model contains 9 predictors. The R2 of my model is 87.23% and the adjusted R2 is 87.18%. I also run predictions on the test data on Kaggle and I achieved 90.2% accuracy on the public leaderboard.  
+My final model contains 9 predictors. The R2 of my model is 87.23% and the adjusted R2 is 87.18%. 
 
 My final model: tSalePrice = 1.064e+01 + LotArea * 2.244e-06 + OverallQual * 1.325e-01 + Age * -1.176e-03 + GrLivArea * 1.474e-04 + FullBath * 4.690e-02 + TotRmsAbvGrd * 9.118e-03 + Fireplaces * 2.669e-02 + GarageCars * 9.445e-02 + BsmtFinSF1 * 1.222e-04
 
@@ -40,4 +40,4 @@ The diagnostic plots look good.
 
 ## Conclusion
 
-My model is valid model. However, If I have more time, I will definitly do more research and transform or combine more predictors to improve the R2.
+ I achieved 90.2% test accuracy on the Kaggle public leaderboard which shows my model is valid model. 
