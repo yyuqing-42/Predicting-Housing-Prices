@@ -2,7 +2,7 @@
 
 ## Summary
 
-Picked 9 predictors out of 80 and built a linear regression model with 90.2% R2 to predict the sale price of houses in Ames, Iowa.
+Selected 9 predictors out of 80 and built a linear regression model with 90.2% R2 to predict the sale price of houses in Ames, Iowa.
 
 ## Data Cleaning and Analysis
 
